@@ -1,4 +1,5 @@
-class Costumes < ActiveRecord::Migration
+class CostumeStores < ActiveRecord::Migration
+  
   create_table :costume_stores do |t|
     t.string :name
     t.integer :costume_inventory
