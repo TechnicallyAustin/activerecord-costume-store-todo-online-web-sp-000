@@ -1,4 +1,4 @@
-class HauntedHouses < ActiveRecord::Migration
+class HauntedHouses < ActiveRecord::Migration[5.2]
   
   
   def change
